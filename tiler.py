@@ -1,4 +1,5 @@
-import gevent.monkey; gevent.monkey.patch_thread()
+import gevent.monkey
+gevent.monkey.patch_all()
 
 import argparse
 from cStringIO import StringIO
